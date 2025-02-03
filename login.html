@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DYME</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+<body>
+       <nav class="navbar">
+        <div class="navbar__container">
+        <a href="/" id=navbar__logo>DYME</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+    </div>
+    <ul class="navbar__menu">
+        <li class="navbar__item">
+            <a href="/" class="navbar__links" id="home-page">Home</a>
+        </li>
+        <li class="navbar__item">
+            <a href="tech.html" class="navbar__links" id="services-page">Tech</a>
+        </li>
+        <li class="navbar__item">
+            <a href="products.html" class="navbar__links" id="products-page">Products</a>
+        </li>
+        <li class="navbar__btn">
+            <a href="login.html" class="button" id="signup">Sign Up</a>
+        </li>
+    </div>
+        </nav>
+        <section>
+        <div class="login-box">
+            <form action="">
+                <h2>LOGIN</h2>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" id="email"required>
+                    <label height="10px">Email:</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password:</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Remember Me</label>
+                    <a href="index.html" >Forgot Password</a>
+                </div>
+                <button type="submit">Log In</button>
+                <div class="register-link">
+                    <p>Don't have an account? <a href="index.html">Register</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="app.js"></script>
+</body>
+</html>
